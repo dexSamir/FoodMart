@@ -1,0 +1,7 @@
+﻿<Properties StartupConfiguration="{C691868B-962D-4673-A2BA-4B83DC46EC37}|https">
+  <MonoDevelop.Ide.ItemProperties.FoodMart.BL FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.FoodMart.DAL FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.FoodMart.Core FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.FoodMart.MVC PreferredExecutionTarget="/Applications/Google Chrome.app" FirstBuild="True" />
+</Properties>

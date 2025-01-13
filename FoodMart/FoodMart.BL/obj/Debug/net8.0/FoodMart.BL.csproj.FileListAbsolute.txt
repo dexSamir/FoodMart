@@ -1,0 +1,17 @@
+/Users/samirhebibov/Desktop/FoodMart/FoodMart/FoodMart.BL/bin/Debug/net8.0/FoodMart.BL.deps.json
+/Users/samirhebibov/Desktop/FoodMart/FoodMart/FoodMart.BL/bin/Debug/net8.0/FoodMart.BL.dll
+/Users/samirhebibov/Desktop/FoodMart/FoodMart/FoodMart.BL/bin/Debug/net8.0/FoodMart.BL.pdb
+/Users/samirhebibov/Desktop/FoodMart/FoodMart/FoodMart.BL/bin/Debug/net8.0/FoodMart.Core.dll
+/Users/samirhebibov/Desktop/FoodMart/FoodMart/FoodMart.BL/bin/Debug/net8.0/FoodMart.DAL.dll
+/Users/samirhebibov/Desktop/FoodMart/FoodMart/FoodMart.BL/bin/Debug/net8.0/FoodMart.DAL.pdb
+/Users/samirhebibov/Desktop/FoodMart/FoodMart/FoodMart.BL/bin/Debug/net8.0/FoodMart.Core.pdb
+/Users/samirhebibov/Desktop/FoodMart/FoodMart/FoodMart.BL/obj/Debug/net8.0/FoodMart.BL.csproj.AssemblyReference.cache
+/Users/samirhebibov/Desktop/FoodMart/FoodMart/FoodMart.BL/obj/Debug/net8.0/FoodMart.BL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/samirhebibov/Desktop/FoodMart/FoodMart/FoodMart.BL/obj/Debug/net8.0/FoodMart.BL.AssemblyInfoInputs.cache
+/Users/samirhebibov/Desktop/FoodMart/FoodMart/FoodMart.BL/obj/Debug/net8.0/FoodMart.BL.AssemblyInfo.cs
+/Users/samirhebibov/Desktop/FoodMart/FoodMart/FoodMart.BL/obj/Debug/net8.0/FoodMart.BL.csproj.CoreCompileInputs.cache
+/Users/samirhebibov/Desktop/FoodMart/FoodMart/FoodMart.BL/obj/Debug/net8.0/FoodMart.BL.csproj.CopyComplete
+/Users/samirhebibov/Desktop/FoodMart/FoodMart/FoodMart.BL/obj/Debug/net8.0/FoodMart.BL.dll
+/Users/samirhebibov/Desktop/FoodMart/FoodMart/FoodMart.BL/obj/Debug/net8.0/refint/FoodMart.BL.dll
+/Users/samirhebibov/Desktop/FoodMart/FoodMart/FoodMart.BL/obj/Debug/net8.0/FoodMart.BL.pdb
+/Users/samirhebibov/Desktop/FoodMart/FoodMart/FoodMart.BL/obj/Debug/net8.0/ref/FoodMart.BL.dll

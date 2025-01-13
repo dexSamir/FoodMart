@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/samirhebibov/Desktop/FoodMart/FoodMart/FoodMart.MVC/obj/Debug/net8.0/scopedcss/projectbundle/FoodMart.MVC.bundle.scp.css",
+      "PackagePath": "staticwebassets/FoodMart.MVC.bundle.scp.css"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.FoodMart.MVC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.FoodMart.MVC.props",
+      "PackagePath": "build\\FoodMart.MVC.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.FoodMart.MVC.props",
+      "PackagePath": "buildMultiTargeting\\FoodMart.MVC.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.FoodMart.MVC.props",
+      "PackagePath": "buildTransitive\\FoodMart.MVC.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

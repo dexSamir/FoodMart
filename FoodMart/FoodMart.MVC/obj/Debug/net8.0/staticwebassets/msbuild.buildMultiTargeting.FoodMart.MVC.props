@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/FoodMart.MVC.props" />
+</Project>
