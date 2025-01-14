@@ -9,4 +9,18 @@
   <ItemGroup>
     <ProjectReference Include="..\FoodMart.DAL\FoodMart.DAL.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="Services\" />
+    <None Remove="VM\" />
+    <None Remove="Services\Interfaces\" />
+    <None Remove="Services\Implements\" />
+    <None Remove="VM\Slider\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
+    <Folder Include="VM\" />
+    <Folder Include="Services\Interfaces\" />
+    <Folder Include="Services\Implements\" />
+    <Folder Include="VM\Slider\" />
+  </ItemGroup>
 </Project>

@@ -1,4 +1,5 @@
-﻿using FoodMart.DAL.Context;
+﻿using FoodMart.DAL;
+using FoodMart.DAL.Context;
 using Microsoft.EntityFrameworkCore;
 
 namespace FoodMart.MVC;
@@ -13,6 +14,8 @@ public class Program
         builder.Services.AddControllersWithViews();
         builder.Services.AddDbContext<AppDbContext>(opt =>
             opt.UseNpgsql(builder.Configuration.GetConnectionString("PostgreSQL")));
+        builder.Services.AddRepositories();
+
         var app = builder.Build();
 
         // Configure the HTTP request pipeline.
