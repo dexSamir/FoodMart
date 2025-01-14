@@ -10,3 +10,4 @@
 /Users/samirhebibov/Desktop/FoodMart/FoodMart/FoodMart.Core/obj/Debug/net8.0/refint/FoodMart.Core.dll
 /Users/samirhebibov/Desktop/FoodMart/FoodMart/FoodMart.Core/obj/Debug/net8.0/FoodMart.Core.pdb
 /Users/samirhebibov/Desktop/FoodMart/FoodMart/FoodMart.Core/obj/Debug/net8.0/ref/FoodMart.Core.dll
+/Users/samirhebibov/Desktop/FoodMart/FoodMart/FoodMart.Core/obj/Debug/net8.0/FoodMart.Core.sourcelink.json

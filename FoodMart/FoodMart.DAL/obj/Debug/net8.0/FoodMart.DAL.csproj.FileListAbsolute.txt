@@ -15,3 +15,4 @@
 /Users/samirhebibov/Desktop/FoodMart/FoodMart/FoodMart.DAL/obj/Debug/net8.0/FoodMart.DAL.pdb
 /Users/samirhebibov/Desktop/FoodMart/FoodMart/FoodMart.DAL/obj/Debug/net8.0/FoodMart.DAL.genruntimeconfig.cache
 /Users/samirhebibov/Desktop/FoodMart/FoodMart/FoodMart.DAL/obj/Debug/net8.0/ref/FoodMart.DAL.dll
+/Users/samirhebibov/Desktop/FoodMart/FoodMart/FoodMart.DAL/obj/Debug/net8.0/FoodMart.DAL.sourcelink.json

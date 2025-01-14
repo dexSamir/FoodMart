@@ -1,4 +1,5 @@
-﻿using FoodMart.DAL;
+﻿using FoodMart.BL;
+using FoodMart.DAL;
 using FoodMart.DAL.Context;
 using Microsoft.EntityFrameworkCore;
 
@@ -14,7 +15,6 @@ public class Program
         builder.Services.AddControllersWithViews();
         builder.Services.AddDbContext<AppDbContext>(opt =>
             opt.UseNpgsql(builder.Configuration.GetConnectionString("PostgreSQL")));
-        builder.Services.AddRepositories();
 
         var app = builder.Build();
 

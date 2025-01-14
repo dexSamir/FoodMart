@@ -256,3 +256,4 @@
 /Users/samirhebibov/Desktop/FoodMart/FoodMart/FoodMart.MVC/obj/Debug/net8.0/FoodMart.MVC.pdb
 /Users/samirhebibov/Desktop/FoodMart/FoodMart/FoodMart.MVC/obj/Debug/net8.0/FoodMart.MVC.genruntimeconfig.cache
 /Users/samirhebibov/Desktop/FoodMart/FoodMart/FoodMart.MVC/obj/Debug/net8.0/ref/FoodMart.MVC.dll
+/Users/samirhebibov/Desktop/FoodMart/FoodMart/FoodMart.MVC/obj/Debug/net8.0/FoodMart.MVC.sourcelink.json

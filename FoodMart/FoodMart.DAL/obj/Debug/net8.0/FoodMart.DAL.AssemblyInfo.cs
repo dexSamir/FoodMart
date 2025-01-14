@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FoodMart.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c52acc0f804d3319db704afcb47f64a832e9f75")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e426178369a9624079e9587e0cdd53683bd12cc1")]
 [assembly: System.Reflection.AssemblyProductAttribute("FoodMart.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FoodMart.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

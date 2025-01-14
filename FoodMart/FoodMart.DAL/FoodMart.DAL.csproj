@@ -8,11 +8,9 @@
 
   <ItemGroup>
     <None Remove="Context\" />
-    <None Remove="Repositories\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Context\" />
-    <Folder Include="Repositories\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FoodMart.Core\FoodMart.Core.csproj" />

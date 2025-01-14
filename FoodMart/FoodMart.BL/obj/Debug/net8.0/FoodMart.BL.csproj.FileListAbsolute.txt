@@ -15,3 +15,4 @@
 /Users/samirhebibov/Desktop/FoodMart/FoodMart/FoodMart.BL/obj/Debug/net8.0/refint/FoodMart.BL.dll
 /Users/samirhebibov/Desktop/FoodMart/FoodMart/FoodMart.BL/obj/Debug/net8.0/FoodMart.BL.pdb
 /Users/samirhebibov/Desktop/FoodMart/FoodMart/FoodMart.BL/obj/Debug/net8.0/ref/FoodMart.BL.dll
+/Users/samirhebibov/Desktop/FoodMart/FoodMart/FoodMart.BL/obj/Debug/net8.0/FoodMart.BL.sourcelink.json
