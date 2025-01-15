@@ -1,5 +1,4 @@
-﻿using FoodMart.BL;
-using FoodMart.DAL;
+﻿using FoodMart.DAL;
 using FoodMart.DAL.Context;
 using Microsoft.EntityFrameworkCore;
 
@@ -32,6 +31,11 @@ public class Program
         app.UseRouting();
 
         app.UseAuthorization();
+
+        app.MapControllerRoute(
+            name: "areas",
+            pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{id?}"
+            );
 
         app.MapControllerRoute(
             name: "default",
