@@ -1,7 +1,7 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
+@model List<Category>
 <section class="py-3" style="background-image: url('/assets/images/background-pattern.jpg'); background-repeat: no-repeat;background-size: cover;">
     <div class="container-fluid">
         <div class="row">
@@ -118,55 +118,13 @@
 
                 <div class="category-carousel swiper">
                     <div class="swiper-wrapper">
-                        <a href="index.html" class="nav-link category-item swiper-slide">
-                            <img src ="~/assets/images/icon-vegetables-broccoli.png" alt="Category Thumbnail">
-                            <h3 class="category-title">Fruits & Veges</h3>
-                        </a>
-                        <a href="index.html" class="nav-link category-item swiper-slide">
-                            <img src ="~/assets/images/icon-bread-baguette.png" alt="Category Thumbnail">
-                            <h3 class="category-title">Breads & Sweets</h3>
-                        </a>
-                        <a href="index.html" class="nav-link category-item swiper-slide">
-                            <img src ="~/assets/images/icon-soft-drinks-bottle.png" alt="Category Thumbnail">
-                            <h3 class="category-title">Fruits & Veges</h3>
-                        </a>
-                        <a href="index.html" class="nav-link category-item swiper-slide">
-                            <img src ="~/assets/images/icon-wine-glass-bottle.png" alt="Category Thumbnail">
-                            <h3 class="category-title">Fruits & Veges</h3>
-                        </a>
-                        <a href="index.html" class="nav-link category-item swiper-slide">
-                            <img src ="~/assets/images/icon-animal-products-drumsticks.png" alt="Category Thumbnail">
-                            <h3 class="category-title">Fruits & Veges</h3>
-                        </a>
-                        <a href="index.html" class="nav-link category-item swiper-slide">
-                            <img src ="~/assets/images/icon-bread-herb-flour.png" alt="Category Thumbnail">
-                            <h3 class="category-title">Fruits & Veges</h3>
-                        </a>
-                        <a href="index.html" class="nav-link category-item swiper-slide">
-                            <img src ="~/assets/images/icon-vegetables-broccoli.png" alt="Category Thumbnail">
-                            <h3 class="category-title">Fruits & Veges</h3>
-                        </a>
-                        <a href="index.html" class="nav-link category-item swiper-slide">
-                            <img src ="~/assets/images/icon-vegetables-broccoli.png" alt="Category Thumbnail">
-                            <h3 class="category-title">Fruits & Veges</h3>
-                        </a>
-                        <a href="index.html" class="nav-link category-item swiper-slide">
-                            <img src ="~/assets/images/icon-vegetables-broccoli.png" alt="Category Thumbnail">
-                            <h3 class="category-title">Fruits & Veges</h3>
-                        </a>
-                        <a href="index.html" class="nav-link category-item swiper-slide">
-                            <img src ="~/assets/images/icon-vegetables-broccoli.png" alt="Category Thumbnail">
-                            <h3 class="category-title">Fruits & Veges</h3>
-                        </a>
-                        <a href="index.html" class="nav-link category-item swiper-slide">
-                            <img src ="~/assets/images/icon-vegetables-broccoli.png" alt="Category Thumbnail">
-                            <h3 class="category-title">Fruits & Veges</h3>
-                        </a>
-                        <a href="index.html" class="nav-link category-item swiper-slide">
-                            <img src ="~/assets/images/icon-vegetables-broccoli.png" alt="Category Thumbnail">
-                            <h3 class="category-title">Fruits & Veges</h3>
-                        </a>
-
+                        @foreach (var item in Model)
+                        {
+                            <a href="index.html" class="nav-link category-item swiper-slide">
+                                <img src="~/imgs/categories/@item.ImageUrl" alt="Category Thumbnail" width="100px" height="75px" style="object-fit:cover;">
+                                <h3 class="category-title">@item.Name</h3>
+                            </a>
+                        }
                     </div>
                 </div>
 
