@@ -7697,6 +7697,14 @@
       "PackagePath": "staticwebassets/assets/style.css"
     },
     {
+      "Id": "/Users/samirhebibov/Desktop/FoodMart/FoodMart/FoodMart.MVC/wwwroot/imgs/categories/mn1k5vcg.lxa.png",
+      "PackagePath": "staticwebassets/imgs/categories/mn1k5vcg.lxa.png"
+    },
+    {
+      "Id": "/Users/samirhebibov/Desktop/FoodMart/FoodMart/FoodMart.MVC/wwwroot/imgs/categories/ytrt50fv.mvl.png",
+      "PackagePath": "staticwebassets/imgs/categories/ytrt50fv.mvl.png"
+    },
+    {
       "Id": "obj/Debug/net8.0/staticwebassets/msbuild.FoodMart.MVC.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

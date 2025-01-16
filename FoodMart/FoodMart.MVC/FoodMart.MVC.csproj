@@ -16,6 +16,7 @@
     <None Remove="Areas\Admin\Views\" />
     <None Remove="Areas\Admin\Views\Dashboard\" />
     <None Remove="Areas\Admin\Views\Shared\" />
+    <None Remove="Areas\Admin\Views\Category\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
@@ -27,10 +28,15 @@
     <Folder Include="Areas\Admin\Views\" />
     <Folder Include="Areas\Admin\Views\Dashboard\" />
     <Folder Include="Areas\Admin\Views\Shared\" />
+    <Folder Include="Areas\Admin\Views\Category\" />
+    <Folder Include="wwwroot\imgs\" />
+    <Folder Include="wwwroot\imgs\categories\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\" />
     <Content Remove="wwwroot\admin\" />
+    <Content Remove="wwwroot\imgs\" />
+    <Content Remove="wwwroot\imgs\categories\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FoodMart.BL\FoodMart.BL.csproj">

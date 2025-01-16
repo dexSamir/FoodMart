@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "j3kIx7WKnL4OBJcxX9L5PESYUKkj3vzXvsdX5DpmzZk=",
+  "Hash": "oeFje8zSRQ5TsuSkUKvMMOq/diKFIK6OsdLmdKXe1ug=",
   "Source": "FoodMart.MVC",
   "BasePath": "_content/FoodMart.MVC",
   "Mode": "Default",
@@ -36628,6 +36628,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/style.css"
+    },
+    {
+      "Identity": "/Users/samirhebibov/Desktop/FoodMart/FoodMart/FoodMart.MVC/wwwroot/imgs/categories/mn1k5vcg.lxa.png",
+      "SourceId": "FoodMart.MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/samirhebibov/Desktop/FoodMart/FoodMart/FoodMart.MVC/wwwroot/",
+      "BasePath": "_content/FoodMart.MVC",
+      "RelativePath": "imgs/categories/mn1k5vcg.lxa.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/imgs/categories/mn1k5vcg.lxa.png"
+    },
+    {
+      "Identity": "/Users/samirhebibov/Desktop/FoodMart/FoodMart/FoodMart.MVC/wwwroot/imgs/categories/ytrt50fv.mvl.png",
+      "SourceId": "FoodMart.MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/samirhebibov/Desktop/FoodMart/FoodMart/FoodMart.MVC/wwwroot/",
+      "BasePath": "_content/FoodMart.MVC",
+      "RelativePath": "imgs/categories/ytrt50fv.mvl.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/imgs/categories/ytrt50fv.mvl.png"
     }
   ]
 }

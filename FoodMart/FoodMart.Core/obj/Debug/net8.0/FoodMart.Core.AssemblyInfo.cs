@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FoodMart.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b0b5e3f45d53ca055185bb3a3b2e338f96ff4b3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e3380c86416eebbc49fe20f615933bdd2004d1f")]
 [assembly: System.Reflection.AssemblyProductAttribute("FoodMart.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FoodMart.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

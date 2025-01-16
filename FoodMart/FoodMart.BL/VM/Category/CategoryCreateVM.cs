@@ -1,11 +1,12 @@
 ﻿using System;
-namespace FoodMart.BL.VM.Category
+using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Http;
+
+namespace FoodMart.BL.VM.Category;
+public class CategoryCreateVM
 {
-	public class CategoryCreateVM
-	{
-		public CategoryCreateVM()
-		{
-		}
-	}
+	[Required(ErrorMessage = "Name is required!"), MaxLength(64, ErrorMessage = "Category name must be less than 64 charachters") ]
+	public string Name { get; set; }
+    public IFormFile? Image { get; set; }
 }
 

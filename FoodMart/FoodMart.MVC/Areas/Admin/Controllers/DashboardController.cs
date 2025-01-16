@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FoodMart.MVC.Areas.Admin.Controllers;
 [Area("Admin")]
-public class Dashboard : Controller
+public class DashboardController : Controller
 {
     // GET: Dashboard
     public IActionResult Index()

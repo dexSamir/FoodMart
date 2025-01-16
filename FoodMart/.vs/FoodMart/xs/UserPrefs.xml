@@ -2,35 +2,39 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="FoodMart.DAL/Migrations/20250114221814_UpdatedTables.cs">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FoodMart.MVC/Areas/Admin/Views/Shared/_Layout.cshtml">
     <Files>
-      <File FileName="FoodMart.MVC/Program.cs" Line="18" Column="1" />
-      <File FileName="FoodMart.DAL/Context/AppDbContext.cs" Line="1" Column="1" />
-      <File FileName="FoodMart.Core/Entities/Category.cs" Line="1" Column="1" />
-      <File FileName="FoodMart.DAL/Migrations/20250114221814_UpdatedTables.cs" Line="1" Column="1" />
+      <File FileName="FoodMart.MVC/Program.cs" Line="39" Column="1" />
+      <File FileName="FoodMart.MVC/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
+      <File FileName="FoodMart.MVC/Areas/Admin/Views/Shared/_Layout.cshtml" Line="157" Column="26" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="FoodMart" expanded="True">
+          <Node name="FoodMart">
             <Node name="FoodMart.BL" expanded="True">
               <Node name="Extension" expanded="True" />
             </Node>
-            <Node name="FoodMart.Core" expanded="True">
-              <Node name="Entities" expanded="True" />
+            <Node name="FoodMart.MVC" expanded="True">
+              <Node name="Areas" expanded="True">
+                <Node name="Admin" expanded="True">
+                  <Node name="Views" expanded="True">
+                    <Node name="Shared" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True" />
             </Node>
-            <Node name="FoodMart.DAL" expanded="True">
-              <Node name="Context" expanded="True" />
-              <Node name="Migrations" expanded="True" />
-            </Node>
-            <Node name="FoodMart.MVC" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.FoodMart.MVC PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
