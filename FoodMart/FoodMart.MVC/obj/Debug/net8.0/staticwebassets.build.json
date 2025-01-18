@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oeFje8zSRQ5TsuSkUKvMMOq/diKFIK6OsdLmdKXe1ug=",
+  "Hash": "TIaHsSWP0TaKfv6nXzC8J5K0qJ8wTRfes5+rsHeaa3c=",
   "Source": "FoodMart.MVC",
   "BasePath": "_content/FoodMart.MVC",
   "Mode": "Default",
@@ -36666,6 +36666,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/imgs/categories/ytrt50fv.mvl.png"
+    },
+    {
+      "Identity": "/Users/samirhebibov/Desktop/FoodMart/FoodMart/FoodMart.MVC/wwwroot/imgs/products/bi3x1ymn.upf.png",
+      "SourceId": "FoodMart.MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/samirhebibov/Desktop/FoodMart/FoodMart/FoodMart.MVC/wwwroot/",
+      "BasePath": "_content/FoodMart.MVC",
+      "RelativePath": "imgs/products/bi3x1ymn.upf.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/imgs/products/bi3x1ymn.upf.png"
     }
   ]
 }

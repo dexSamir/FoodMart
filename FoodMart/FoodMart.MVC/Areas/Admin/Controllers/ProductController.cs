@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace FoodMart.MVC.Areas.Admin.Controllers;
+[Area("Admin")]
 public class ProductController : Controller
 {
     readonly AppDbContext _context;
@@ -76,6 +77,7 @@ public class ProductController : Controller
 
         Product product = new Product
         {
+            CreatedTime = DateTime.UtcNow, 
             CostPrice = vm.CostPrice,
             CategoryId = vm.CategoryId,
             AvgRating = vm.AvgRating,
@@ -94,7 +96,9 @@ public class ProductController : Controller
     public async Task<IActionResult> Update(int? id)
     {
         if (!id.HasValue) return BadRequest();
+
         await PopulateCategoriesAsync();
+
         var data = await _context.Products
             .Where(x => x.Id == id)
             .Select(x => new ProductUpdateVM
@@ -119,7 +123,6 @@ public class ProductController : Controller
 
         if(vm.Image != null)
         {
-
             if (await _context.Products.AnyAsync(x => x.Name == vm.Name))
                 return await HandleModelErrorAsync(vm, "This name is already used!");
 
@@ -131,6 +134,7 @@ public class ProductController : Controller
 
             string fileName = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "imgs", "products", data.ImageUrl);
             if (System.IO.File.Exists(fileName))
+            {
                 try
                 {
                     System.IO.File.Delete(fileName); 
@@ -139,18 +143,24 @@ public class ProductController : Controller
                 {
                     return StatusCode(500, $"Error deleting file {ex.Message}"); 
                 }
+            }
             string newFileName = await vm.Image.UploadAsync(_env.WebRootPath, "imgs", "products");
             data.ImageUrl = newFileName; 
         }
+
         data.CategoryId = vm.CategoryId;
         data.CostPrice = vm.CostPrice;
         data.SellPrice = vm.SellPrice;
         data.Name = vm.Name;
+        data.AvgRating = vm.AvgRating;
+        data.UpdatedTime = DateTime.UtcNow; 
         data.Description = vm.Description;
         data.Quantity = vm.Quantity;
+
         await _context.SaveChangesAsync();
         return RedirectToAction(nameof(Index)); 
     }
+
     public async Task<IActionResult> ToggleProductVisibility(int? id, bool isdeleted)
     {
         if (!id.HasValue) return BadRequest();
@@ -161,6 +171,7 @@ public class ProductController : Controller
         await _context.SaveChangesAsync();
         return RedirectToAction(nameof(Index));
     }
+
     public async Task<IActionResult> Hide(int? id)
        => await ToggleProductVisibility(id, true);
 
@@ -188,6 +199,7 @@ public class ProductController : Controller
                 }
             }
         }
+
         _context.Products.Remove(product);
         await _context.SaveChangesAsync();
 
