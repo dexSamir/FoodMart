@@ -1,5 +1,8 @@
-﻿using FoodMart.DAL;
+﻿using FoodMart.BL.Extension;
+using FoodMart.Core.Entities;
+using FoodMart.DAL;
 using FoodMart.DAL.Context;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace FoodMart.MVC;
@@ -15,6 +18,17 @@ public class Program
         builder.Services.AddDbContext<AppDbContext>(opt =>
             opt.UseNpgsql(builder.Configuration.GetConnectionString("PostgreSQL")));
 
+        builder.Services.AddIdentity<User, IdentityRole>(opt =>
+        {
+            opt.Password.RequireNonAlphanumeric = false;
+            opt.Password.RequireDigit = true;
+            opt.Password.RequireLowercase = true;
+            opt.Password.RequireUppercase = false;
+            opt.Lockout.MaxFailedAccessAttempts = 5;
+            opt.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
+        }).AddDefaultTokenProviders().AddEntityFrameworkStores<AppDbContext>();
+
+
         var app = builder.Build();
 
         // Configure the HTTP request pipeline.
@@ -29,8 +43,14 @@ public class Program
         app.UseStaticFiles();
 
         app.UseRouting();
+        app.UseSeedExtension(); 
 
         app.UseAuthorization();
+
+        app.MapControllerRoute(
+            name: "register",
+            pattern: "register",
+            defaults: new { controller = "Account", action = "Register" }); 
 
         app.MapControllerRoute(
             name: "areas",
