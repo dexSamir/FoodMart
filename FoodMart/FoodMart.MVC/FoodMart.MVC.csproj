@@ -31,12 +31,14 @@
     <Folder Include="Areas\Admin\Views\Category\" />
     <Folder Include="wwwroot\imgs\" />
     <Folder Include="wwwroot\imgs\categories\" />
+    <Folder Include="wwwroot\imgs\products\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\" />
     <Content Remove="wwwroot\admin\" />
     <Content Remove="wwwroot\imgs\" />
     <Content Remove="wwwroot\imgs\categories\" />
+    <Content Remove="wwwroot\imgs\products\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FoodMart.BL\FoodMart.BL.csproj">

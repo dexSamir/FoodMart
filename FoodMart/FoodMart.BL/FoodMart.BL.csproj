@@ -13,10 +13,12 @@
     <None Remove="VM\" />
     <None Remove="Extension\" />
     <None Remove="VM\Category\" />
+    <None Remove="VM\Product\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="VM\" />
     <Folder Include="Extension\" />
     <Folder Include="VM\Category\" />
+    <Folder Include="VM\Product\" />
   </ItemGroup>
 </Project>

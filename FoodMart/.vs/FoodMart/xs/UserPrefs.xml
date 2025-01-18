@@ -1,15 +1,8 @@
 ﻿<Properties StartupConfiguration="{C691868B-962D-4673-A2BA-4B83DC46EC37}|https">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="FoodMart.MVC/Areas/Admin/Views/Shared/_Layout.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FoodMart.MVC/Views/Home/Index.cshtml">
     <Files>
-      <File FileName="FoodMart.MVC/Program.cs" Line="39" Column="1" />
-      <File FileName="FoodMart.MVC/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
-      <File FileName="FoodMart.MVC/Areas/Admin/Views/Shared/_Layout.cshtml" Line="157" Column="26" />
+      <File FileName="FoodMart.MVC/Views/Home/Index.cshtml" Line="124" Column="154" />
+      <File FileName="FoodMart.MVC/Controllers/HomeController.cs" Line="18" Column="90" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,15 +10,23 @@
           <Node name="FoodMart">
             <Node name="FoodMart.BL" expanded="True">
               <Node name="Extension" expanded="True" />
+              <Node name="VM" expanded="True">
+                <Node name="Category" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="FoodMart.Core" expanded="True">
+              <Node name="Entities" expanded="True" />
             </Node>
             <Node name="FoodMart.MVC" expanded="True">
               <Node name="Areas" expanded="True">
                 <Node name="Admin" expanded="True">
+                  <Node name="Controllers" expanded="True" />
                   <Node name="Views" expanded="True">
-                    <Node name="Shared" expanded="True" />
+                    <Node name="Category" expanded="True" />
                   </Node>
                 </Node>
               </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />
               </Node>
@@ -36,5 +37,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.FoodMart.MVC PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
